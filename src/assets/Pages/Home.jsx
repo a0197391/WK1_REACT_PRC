@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import PictureList from "../components/PictureList";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import PictureList from "../components/PictureList/PictureList";
 
 function Home(){
     return(
