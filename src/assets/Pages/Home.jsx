@@ -7,7 +7,7 @@ function Home(){
         <div className="container main-layout">
            <Header className="layout-header" />
            <PictureList className="layout-content" />
-           <Footer className="layout-footer" />
+           {/* <Footer className="layout-footer" /> */}
         </div>
     )
 
