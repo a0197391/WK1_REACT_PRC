@@ -1,0 +1,18 @@
+.imageLayout {
+    background-color: #fff;
+    font-size: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  }
+  @media screen and (min-width: 576px) {
+    .image-layout {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+   }
+  }
+
+  .imgTitle {
+    align-self: center;
+    margin-bottom: 0px;
+  }

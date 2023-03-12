@@ -1,17 +1,32 @@
-import pictures from "/Users/88696/WK1_REACT_PRC/src/assets/json/pictures.json"
+import imgs from "/Users/88696/WK1_REACT_PRC/src/assets/json/pictures.json"
+import Pictures from "../Pictures/Pictures"
 import {Row ,Col} from "antd";
+import style from "./picturelist.module.css"
 
 export default function PictureList(){
     return(
-    <div className={"PictureList"}>
-       
-    
-     
-    </div>
+      <article className={style.imageLayout}>
+            <div className="container">
+                <h1 className={style.imgTitle}>IMAGES</h1>
+                <hr className="divider--dark" />
+                <Row>
+                    {imgs.map(img => (
+                         <Col
+                         key={img.id}
+                         sm={{ span: 12 }}
+                         lg={{ span: 6 }}
+                     >
+                         <ImageItem img={img} />
+                     </Col>
+                    ))
+                    }
+                </Row>
+            </div>
+        </article>
     );
 }
 
-<article className="image__layout py-3 py-sm-5">
+{/* <article className="image__layout py-3 py-sm-5">
 <div className="container">
   <h1 className="text-center">IMAGES</h1>
   <hr className="divider--dark" />
@@ -66,7 +81,7 @@ export default function PictureList(){
     </div>   
   </div>
 </div>
-</article>
+</article> */}
 
 {/* <article className="description__layout py-4 py-sm-5">
 <div className="container d-flex flex-column align-items-center">
