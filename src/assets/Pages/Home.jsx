@@ -6,7 +6,7 @@ function Home(){
     return(
         <div className="container main-layout">
            <Header className="layout-header" />
-           <PictureList className="layout-content" />
+           {/* <PictureList className="layout-content" /> */}
            {/* <Footer className="layout-footer" /> */}
         </div>
     )
