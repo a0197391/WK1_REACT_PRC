@@ -102,10 +102,10 @@
 
 /* Descriptions Style */
 .description__layout {
-  background-color: #00979c;
+  background-color: #065659;
   padding-top: 50px;
   padding-bottom: 50px;
-  color: rgb(176, 200, 255);
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
