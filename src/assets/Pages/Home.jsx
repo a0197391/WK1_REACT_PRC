@@ -9,7 +9,7 @@ function Home() {
         <div className="mainLayout">
             <Header className="layoutHeader" />
             <div className="layoutContent" >
-                {/* <PictureList img={pictures} /> */}
+                <PictureList img={pictures} />
                 <Description />
             </div>
             {/* <Footer className="layoutFooter" /> */}
