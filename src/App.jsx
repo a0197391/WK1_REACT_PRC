@@ -3,7 +3,7 @@
 // import './App.css'
 
 import 'antd/dist/reset.css'
-// import './App.css'
+import './App.css'
 
 import Home from './assets/Pages/Home'
 
