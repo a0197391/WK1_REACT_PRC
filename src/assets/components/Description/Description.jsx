@@ -17,7 +17,7 @@ export default function Description() {
                     dolore assumenda fuga quae repellat voluptatum quo, saepe exercitationem perspiciatis reiciendis modi
                     tempora.
                     Recusandae explicabo iusto corporis nam numquam dignissimos, necessitatibus, iure non culpa repellat
-                    repudiandae temporibus! Saepe excepturi tempore iusto eos sit!
+                    repudiandae temporibus! Saepe excepturi tempore iusto eos sit! 110555
                 </p>
             </div>
         </article>
