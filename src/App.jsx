@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
-import 'antd/dist/reset.css'
+// import 'antd/dist/reset.css'
 import './App.css'
 
 import Home from './assets/Pages/Home'
