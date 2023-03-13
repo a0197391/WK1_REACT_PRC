@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import PictureList from "../components/PictureList/ImageList";
+import PictureList from "../components/PictureList";
 import Description from "../components/Description";
 import Footer from "../components/Footer";
 import pictures from "../json/pictures.json"
