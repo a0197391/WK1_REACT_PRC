@@ -1,7 +1,8 @@
 import imgs from "../../json/pictures.json"
-// import Pictures from "../Pictures"
+import Pictures from "../Pictures"
 import {Row ,Col} from "antd";
 import style from "./picturelist.module.css"
+
 
 export default function PictureList(){
     return(
@@ -16,7 +17,7 @@ export default function PictureList(){
                          sm={{ span: 12 }}
                          lg={{ span: 6 }}
                      >
-                         <ImageItem img={img} />
+                         <Pictures img={img} />
                      </Col>
                     ))
                     }

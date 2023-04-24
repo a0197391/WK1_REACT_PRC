@@ -22,7 +22,7 @@ export default function Footer(){
                 </div>
             </div>
 
-            <div className={styles.footerBelow}>
+            <div className={style.footerBelow}>
                 <div className="container">
                     <h6>
                         &copy; Copyright All rights reserved.
