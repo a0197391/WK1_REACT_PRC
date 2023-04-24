@@ -1,4 +1,3 @@
-
 import style from './description.module.css'
 
 export default function Description() {
