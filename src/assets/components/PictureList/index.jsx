@@ -1,5 +1,5 @@
 import imgs from "/Users/88696/WK1_REACT_PRC/src/assets/json/pictures.json"
-import Pictures from "../Pictures/Pictures"
+import Pictures from "../Pictures"
 import {Row ,Col} from "antd";
 import style from "./picturelist.module.css"
 
