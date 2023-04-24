@@ -2,7 +2,7 @@ import style from './pictures.module.css'
 
 export default function Pictures({img}) {
     return (
-            <div className={styles.image}>
+            <div className={style.image}>
                 <a href="" className={style.imageLink}>
                     <img src={img.image} alt="" className={style.imageStyle} />
                 </a>

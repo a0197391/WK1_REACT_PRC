@@ -1,5 +1,5 @@
 import imgs from "../../json/pictures.json"
-import Pictures from "../Pictures"
+// import Pictures from "../Pictures"
 import {Row ,Col} from "antd";
 import style from "./picturelist.module.css"
 
