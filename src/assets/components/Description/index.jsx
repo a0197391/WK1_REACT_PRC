@@ -2,8 +2,8 @@ import style from './description.module.css'
 
 export default function Description() {
     return (
-        <article className={style.descriptionLayout}>
-            <div className="container">
+        <div className={style.descriptionLayout}>
+            {/* <div className="container"> */}
                 <h1 className={style.descriptionTitle}>DESCRIPTIONS</h1>
                 <hr className="divider--light" />
                 <p className={style.descriptionContent}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
@@ -18,8 +18,8 @@ export default function Description() {
                     Recusandae explicabo iusto corporis nam numquam dignissimos, necessitatibus, iure non culpa repellat
                     repudiandae temporibus! Saepe excepturi tempore iusto eos sit!
                 </p>
-            </div>
-        </article>
+            {/* </div> */}
+        </div>
 
     );
 }
