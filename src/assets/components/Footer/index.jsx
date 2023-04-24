@@ -7,7 +7,7 @@ export default function Footer(){
             <div className={style.footerAbove}>
                 <div className="container">
                     <Row className={style.footerContent}>
-                        <Col lg={{ span: 16 }} span={24} className={styles.footerDescription}>
+                        <Col lg={{ span: 16 }} span={24} className={style.footerDescription}>
                             臺北市和平東路二段134號，國立臺北教育大學 數位科技設計學系
                         </Col>
                         <Col lg={{ span: 8 }} span={24}>
