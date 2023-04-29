@@ -3,7 +3,7 @@ import { getApps, getApp, initializeApp } from 'firebase/app'
 import images from "../assets/json/pictures.json"
 
 const firebaseConfig = {
-    apiKey: "import.AIzaSyDTR9bsoGC173PUnXFw8M4CLuFHWzP6bY8",
+    apiKey: "import.meta.env.VITE_FIREBASE_API_KEY",
     authDomain: "import.image-data-ff9f5.firebaseapp.com",
     projectId: "import.image-data-ff9f5",
     storageBucket: "import.image-data-ff9f5.appspot.com",
