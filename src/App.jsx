@@ -7,11 +7,14 @@ import './App.css'
 import Home from './assets/Pages/Home'
 
 
-import { feedImages } from './api';
-feedImages();
+// import { feedImages } from './api';
+// feedImages();
 
 function App() {
   // const [count, setCount] = useState(0)
+  useEffect(() => {
+    feedImages();
+  }, []);
 
   return (
     <Home />
