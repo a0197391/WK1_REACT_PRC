@@ -6,6 +6,11 @@ import 'antd/dist/reset.css'
 import './App.css'
 import Home from './assets/Pages/Home'
 
+import { Provider } from "react-redux";
+import Router from './Router';
+import { persistor, store } from './redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
+
 
 const queryClient = new QueryClient()
 function App() {
@@ -13,9 +18,14 @@ function App() {
 
   return (
     // <Home />
-    <QueryClientProvider client={queryClient}>
-      <Home />
-    </QueryClientProvider>
+    // <QueryClientProvider client={queryClient}>
+    //   <Home />
+    // </QueryClientProvider>
+    <Provider store={store}>
+    <PersistGate loading={null} persistor={persistor}>
+      <Router />
+    </PersistGate>
+  </Provider>
   );
 }
 
