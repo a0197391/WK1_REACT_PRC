@@ -16,7 +16,7 @@ function Home() {
             <Header className="layoutHeader" />
             <div className="layoutContent" >
                 {/* <PictureList img={pictures} /> */}
-                <PictureList img={imgs}/>
+                <PictureList img={imgs} isLoading={isLoading}/>
                 <Description />
             </div>
             <Footer className="layoutFooter" />
