@@ -36,14 +36,23 @@ export const feedImages = async () => {
     });
 };
 
-// export const getImages = async () => {
-//     let querySnapshot = await getDocs(imagesCollection);
+//use in react_query
+export const getImages = async () => {
+    let querySnapshot = await getDocs(imagesCollection);
 
-//     // Convert the query to a json array.
-//     let result = [];
-//     querySnapshot.forEach(async (image) => {
-//         await result.push(image.data());
-//     });
-//     console.log({ result });
-//     return result;
-// };
+    // Convert the query to a json array.
+    let result = [];
+    querySnapshot.forEach(async (image) => {
+        await result.push(image.data());
+    });
+    console.log({ result });
+    return result;
+};
+
+//use in react_query
+export const getImagesById = async ({ queryKey }) =>{
+    const [id] = queryKey;
+    const docRef = await doc(db,"images",id);
+    const docSnap = await getDocs(docRef);
+    return docSnap.data();
+};

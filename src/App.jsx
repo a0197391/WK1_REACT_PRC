@@ -6,9 +6,9 @@ import 'antd/dist/reset.css'
 import './App.css'
 import Home from './assets/Pages/Home'
 
-
-import { feedImages } from './api';
-feedImages();
+//執行一次
+// import { feedImages } from './api';
+// feedImages();
 
 function App() {
   // const [count, setCount] = useState(0)
