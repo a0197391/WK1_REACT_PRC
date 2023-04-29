@@ -37,14 +37,14 @@ export const feedImages = async () => {
     });
 };
 
-export const getImages = async () => {
-    let querySnapshot = await getDocs(imagesCollection);
+// export const getImages = async () => {
+//     let querySnapshot = await getDocs(imagesCollection);
 
-    // Convert the query to a json array.
-    let result = [];
-    querySnapshot.forEach(async (image) => {
-        await result.push(image.data());
-    });
-    console.log({ result });
-    return result;
-};
+//     // Convert the query to a json array.
+//     let result = [];
+//     querySnapshot.forEach(async (image) => {
+//         await result.push(image.data());
+//     });
+//     console.log({ result });
+//     return result;
+// };
