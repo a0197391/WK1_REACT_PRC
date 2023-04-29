@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getImages , getImagesById } from '../api';
+import { getImages , getImagesById } from '../../../api';
 
 export const useImages = () =>{
     const { data, isLoading } =useQuery([],getImages);

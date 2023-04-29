@@ -3,7 +3,7 @@ import PictureList from "../components/PictureList";
 import Description from "../components/Description";
 import Footer from "../components/Footer";
 
-import { useImages } from "../react-query";
+import { useImages } from "./reactQuery";
 // import pictures from "../json/pictures.json"
 
 function Home() {
