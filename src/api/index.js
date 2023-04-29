@@ -3,13 +3,12 @@ import { getApps, getApp, initializeApp } from 'firebase/app'
 import images from "../assets/json/pictures.json"
 
 const firebaseConfig = {
-    apiKey: "import.meta.env.VITE_FIREBASE_API_KEY",
-    authDomain: "import.image-data-ff9f5.firebaseapp.com",
-    projectId: "import.image-data-ff9f5",
-    storageBucket: "import.image-data-ff9f5.appspot.com",
-    messagingSenderId: "import.302931515565",
-    appId: "import.1:302931515565:web:b9884d78cdbc42534ace24",
-    // measurementId: "G-C27JP05RB9"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
   };
 
   
